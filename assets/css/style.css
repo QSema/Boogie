@@ -294,6 +294,12 @@
 .bar img{
     width: 450px;
     height: auto;
+    transition: all 1s ease;
+}
+
+.bar img:hover{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
 }
 
 .bar p{
@@ -328,6 +334,12 @@
 .des img{
     width: 450px;
     height: auto;
+    transition: all 1s ease;
+}
+
+.des img:hover{
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
 }
 
 .des p{
@@ -840,6 +852,7 @@
 .main-2 .img2{
     width: 100%;
     height: auto;
+    overflow: hidden;
 }
 
 .img2 img{
@@ -969,6 +982,13 @@
     border-radius: 25px;
     padding: 12px 31px;
     margin-top: 12px;
+    cursor: pointer;
+    transition: all .2s
+    ease;
+}
+
+.aus button:hover{
+    background-color: rgb(202, 77, 63);
 }
 
 .make .ok{
@@ -1075,6 +1095,7 @@
 .esas .img4{
     width: 440px;
     height: auto;
+    overflow: hidden;
 }
 
 .img4 img{
@@ -1288,6 +1309,7 @@
     width: 500px;
     height: auto;
     margin-left: 70px;
+    overflow: hidden;
 }
 
 .img6 img{
@@ -1418,6 +1440,12 @@
     border-radius: 25px;
     padding: 12px 31px;
     margin-top: 12px;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+
+.view button:hover{
+    background-color: rgb(202, 77, 63);
 }
 
 .more .rof{
@@ -1433,18 +1461,19 @@
     height: 100%;
 }
 
-.anne .img{
+.anne .im{
     width: 100%;
     height: auto;
+    overflow: hidden;
 }
 
-.img img{
+.im img{
     width: 100%;
     height: 100%;
     transition: all .2s ease-in-out;
 }
 
-.anne img:hover{
+.anne .im img:hover{
     transform: scale(1.05);
     transition: .78s cubic-bezier(.3,.42,.11,.97)
 }
